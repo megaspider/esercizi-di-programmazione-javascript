@@ -19,3 +19,8 @@
 */
 
 var gatti = 44;
+var fila = 6;
+console.log(`Input: numero di gatti = ${gatti},`,`gatti per fila = ${fila}`);
+var file = Math.round(gatti/fila+0.2);
+var gattiMancanti = fila * file - gatti;
+console.log(`Output: numero di file = ${file},`,`gatti mancanti = ${gattiMancanti}`);
